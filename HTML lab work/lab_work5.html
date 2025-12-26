@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+          
+    able {
+      border-collapse: collapse;
+      width: 500px;
+    }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+<form>
+    <table>
+      <caption><h1>Job Application Form</h1></caption>
+
+      <tr>
+        <td><label for="name">Full Name:</label></td>
+        <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email Address:</label></td>
+        <td><input type="email" id="email" name="email"></td>
+      </tr>
+
+      <tr>
+        <td><label for="phone">Phone Number:</label></td>
+        <td><input type="tel" id="phone" name="phone" placeholder="123-456-7890"></td>
+      </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Job Role:</label></td>
+        <td> <select name="" id="">
+
+            <option >----Select Role----</option>
+            <option value="developer">Web Developer</option>
+             <option value="designer">UI/UX Designer</option>
+             <option value="manager">Project Manager</option>
+             <option value="analyst">Data Analyst</option>
+            </select>
+         </td>
+      </tr>
+
+            <tr>
+        <td><label for="dob">Date of Birth:</label></td>
+        <td><input type="date" id="dob" name="dob"></td>
+      </tr>
+
+      <tr>
+        <td><label for="color">Favorite Color:</label></td>
+        <td><input type="color" id="color" name="color"></td>
+      </tr>
+
+      <tr>
+        <td><label for="resume">Upload Resume:</label></td>
+        <td><input type="file" id="resume" name="resume"></td>
+      </tr>
+
+
+      
+      <tr>
+        <td>Skills:</td>
+        <td>
+          <input type="checkbox" id="html" name="skills" value="HTML"> <label for="html">HTML</label>
+          <input type="checkbox" id="css" name="skills" value="CSS"> <label for="css">CSS</label>
+          <input type="checkbox" id="js" name="skills" value="JavaScript"> <label for="js">JavaScript</label>
+          <input type="checkbox" id="react" name="skills" value="React"> <label for="react">React</label>
+        </td>
+      </tr>
+
+       <tr>
+        <td><label for="cover">Cover Letter:</label></td>
+        <td><textarea id="cover" name="cover" placeholder="Write something about yourself..."></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="buttons">
+          <button>Submit</button>
+          <button>Reset</button>
+        </td>
+      </tr>
+</body>
+</html>
